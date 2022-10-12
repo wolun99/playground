@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#app{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color:#000;
+  display:inline-block;
+  margin-left:30px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.menu{
+  height:50px;
+  width:1200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.menu a:first-child{
+  margin: 0;
+}
