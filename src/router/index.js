@@ -11,6 +11,11 @@ const routes = [
 		name: 'serach',
 		component: () => import('@/views/SearchView.vue'),
 	},
+	{
+		path: '/uploaded',
+		name: 'upload',
+		component: () => import('@/views/UploadView.vue'),
+	},
 ];
 
 const router = createRouter({

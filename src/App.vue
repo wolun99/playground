@@ -3,6 +3,7 @@
 		<div class="menu">
 			<router-link to="/">메인홈</router-link>
 			<router-link to="/search">검색기능</router-link>
+			<router-link to="/uploaded">파일업로드</router-link>
 		</div>
 		<router-view></router-view>
 	</div>
@@ -11,8 +12,6 @@
 <script>
 export default {
 	name: 'App',
-	data() {},
-	methods: {},
 };
 </script>
 
